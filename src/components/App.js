@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Question from "./Question";
 import quiz from "../data/quiz";
 
+
+
+
 function App() {
   const [questions, setQuestions] = useState(quiz);
   const [currentQuestionId, setCurrentQuestion] = useState(1);
@@ -39,3 +42,97 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function App() {
+//   const[questions, setQuestions] = useState(quiz)
+//   const [currentQuestionId, setCurrentQuestionId] = useState(1)
+//   const [score, setScore] = useState(0)
+//   const currentQuestion = questions.find((question)=> question.id === currentQuestionId)
+
+//   function handleQuestionAnswered(correct) {
+//     if (currentQuestionId > questions.length) {
+//       setCurrentQuestionId(()=> currentQuestionId + 1)
+//     } else {
+//       setCurrentQuestionId(null)
+//     } if (correct) {
+//       setScore(()=> score + 1)
+//     }
+//   }
+//   return (
+//     <>
+//     {currentQuestion ? (
+//       <Question onAnswered={handleQuestionAnswered} question={currentQuestion}/>
+//     ) : (
+//       <div>
+//         <h1>game over</h1>
+//         <h1>{score}</h1>
+//       </div>
+//     )}
+//     </>
+//   )
+ 
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
